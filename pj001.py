@@ -1,7 +1,7 @@
 from time import sleep
-print('-'*20)
+print('-' * 20)
 print('ANÁLISE DE TEXTOS')
-print('-'*20)
+print('-' * 20)
 frase = str(input('Digite a frase/palavra a ser analizada: ')).lower().strip()
 print('ANALIZANDO...')
 sleep(3)
@@ -24,4 +24,5 @@ if vog >= 2:
     print('Sua frase tem {} vogais'.format(vog))
 else:
     print('Sua frase tem {} vogal'.format(vog))
-
+print(' ')
+print('Obrigado pela preferência em nossos serviços')
