@@ -3,8 +3,10 @@ print('-'*20)
 print('ANÁLISE DE TEXTOS')
 print('-'*20)
 frase = str(input('Digite a frase/palavra a ser analizada: ')).lower().strip()
+# Dá a sensação de análise
 print('ANALIZANDO...')
 sleep(3)
+# Dá os valores
 div = frase.count(' ') + 1
 a = frase.count('a')
 e = frase.count('e')
@@ -12,6 +14,7 @@ i = frase.count('i')
 o = frase.count('o')
 u = frase.count('u')
 vog = a + e + i + o + u
+# Condições
 if len(frase.replace(' ', '')) >= 2:
     print('Sua frase tem {} caracteres'.format(len(frase.replace(' ', ''))))
 else:
@@ -24,4 +27,6 @@ if vog >= 2:
     print('Sua frase tem {} vogais'.format(vog))
 else:
     print('Sua frase tem {} vogal'.format(vog))
-
+# Mensagem
+print(' ')
+print('Obrigado pela preferência em nossos serviços')
