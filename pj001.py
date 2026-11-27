@@ -15,7 +15,7 @@ vog = a + e + i + o + u
 if len(frase.replace(' ', '')) >= 2:
     print('Sua frase tem {} caracteres'.format(len(frase.replace(' ', ''))))
 else:
-    print('Sua fras4e tem {} caractér'.format(len(frase.replace(' ', ''))))
+    print('Sua frase tem {} caractér'.format(len(frase.replace(' ', ''))))
 if div >= 2:
     print('Sua frase tem {} palavras'.format(div))
 else:
